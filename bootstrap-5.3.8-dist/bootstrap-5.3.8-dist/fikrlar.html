@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <span class="fs-4">Super Kids</span>
+    </a>
+    <ul class="nav nav-pills">
+
+      <li class="nav-item"><a href="ijod.html" class="nav-link">Ijod olami</a></li>
+      <li class="nav-item"><a href="o'yinlar.html" class="nav-link">O'yinlar</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Olamni o'rganamiz</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Raqamlar</a></li>
+    </ul>
+  </header>
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Biz Sizni Eshitamiz</h2>
+    <p class="text-center mb-5">Takliflaringiz, fikrlaringiz va farzandingizning ijodiy ishlari biz uchun juda muhim.</p>
+
+    <div class="row g-4">
+
+    
+      <div class="col-md-4">
+        <div class="card p-3 shadow-sm text-center">
+          <h4>Fikringizni yozing</h4>
+          <p>Sayt haqidagi fikr va takliflaringizni yuboring.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fikrModal">
+            Fikr yozish
+          </button>
+        </div>
+      </div>
+
+    
+      <div class="col-md-4">
+        <div class="card p-3 shadow-sm text-center">
+          <h4>Rasm yoki ish yuborish</h4>
+          <p>Farzandingiz yasagan ishlarni yuklab qoldiring.</p>
+
+          <input type="file" class="form-control mb-3">
+          <button class="btn btn-success">Yuborish</button>
+        </div>
+      </div>
+
+    
+      <div class="col-md-4">
+        <div class="card p-3 shadow-sm text-center">
+          <h4>Saytga baho bering</h4>
+          <p>Bizni yanada yaxshilanishimizga yordam bering.</p>
+
+          <div class="fs-3 text-warning">
+            ★ ★ ★ ★ ★
+          </div>
+
+          <button class="btn btn-warning mt-2">Baho yuborish</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Fikr yozishimiz uchun modal oyna -->
+<div class="modal fade" id="fikrModal">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+
+      <h4 class="mb-3">Fikr yozish</h4>
+
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="ism" placeholder="Ismingiz">
+        <label for="ism">Ismingiz</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="emailingiz">
+        <label for="email">emailingiz</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <textarea class="form-control" id="fikr" style="height: 120px" placeholder="Fikr"></textarea>
+        <label for="fikr">Fikringiz</label>
+      </div>
+
+      <button class="btn btn-primary w-100">Yuborish</button>
+
+    </div>
+  </div>
+</div>
+
+ 
+  <script src="js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
+
+ 
